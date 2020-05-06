@@ -11,6 +11,6 @@
  void myRight();//右移 
  void myUp();//顺时针旋转90度 
  int myDown();//加速下落 
-  void myadd();//增行
-  void mycut();//消行
+ void myadd();//增行
+ void mycut();//消行
  }; 
