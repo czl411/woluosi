@@ -5,6 +5,8 @@
   
  public: 
  int score;//用于计分
- void myStop(HANDLE hOut, int block[4][4]);//游戏暂停 
- void gameOver(HANDLE hOut, int block[4][4], int map[21][12]);//游戏结束 
+ void mystart();//游戏开始
+ void myStop();//游戏暂停 
+ bool myover();//判断是否结束
+ void gameOver();//游戏结束 
  }; 
