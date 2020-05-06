@@ -11,7 +11,4 @@
  void myRight();//右移 
  void myUp();//顺时针旋转90度 
  int myDown();//加速下落 
- bool Judge();	//层满判定
- void myadd();//增行
- void mycut();//消行
  }; 
