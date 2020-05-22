@@ -25,3 +25,22 @@ int block09[4][4] = { { 19,0,0,0 },{ 0,1,0,0 },{ 0,1,0,0 },{ 0,1,1,0 } };
 int block10[4][4] = { { 20,0,0,0 },{ 0,0,0,0 },{ 1,1,0,0 },{ 0,1,1,0 } };
 int block11[4][4] = { { 21,0,0,0 },{ 0,0,1,0 },{ 0,1,1,0 },{ 0,1,0,0 } };
 int block12[4][4] = { { 22,0,0,0 },{ 0,0,0,0 },{ 1,1,0,0 },{ 1,1,0,0 } };
+int* roundBlock(){
+    int num;
+    num=rand()%13;
+    switch(num){
+        case 0:return block00;
+        case 1:return block01;
+        case 2:return block02;
+        case 3:return block03;
+        case 4:return block04;
+        case 5:return block05;
+        case 6:return block06;
+        case 7:return block07;
+        case 8:return block08;
+        case 9:return block09;
+        case 10:return block10;
+        case 11:return block11;
+        case 12:return block12;
+    }
+}
